@@ -27,16 +27,16 @@ A simple console-based drawing program built with C# and Clean Architecture.
 
 
 ## Architecture
-CanvasDrawer/
-├── Domain/ # Core business logic
-│ ├── Canvas.cs # Canvas entity
-│ ├── Point.cs # Value object
-│ └── CanvasConstants.cs # Constants
-├── Commands/ # Command layer
-│ ├── DrawingOperations/ # Drawing strategies
-│ ├── CanvasCommand.cs # Command classes
-│ └── CommandParser.cs # Input parser
-└── Application/ # Application layer
+CanvasDrawer/  
+├── Domain/ # Core business logic  
+│ ├── Canvas.cs # Canvas entity  
+│ ├── Point.cs # Value object  
+│ └── CanvasConstants.cs # Constants  
+├── Commands/ # Command layer  
+│ ├── DrawingOperations/ # Drawing strategies  
+│ ├── CanvasCommand.cs # Command classes  
+│ └── CommandParser.cs # Input parser  
+└── Application/ # Application layer  
 └── DrawingApp.cs # Main application
 
 ## Running
